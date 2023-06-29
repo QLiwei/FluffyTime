@@ -1,0 +1,20 @@
+# git submodule init
+# git submodule update
+# git submodule status
+# git submodule add [url]
+[submodule "CMSIS_5"]
+	path = CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git
+	branch = master
+[submodule "uC-OS3"]
+	path = uC-OS3
+	url = https://github.com/weston-embedded/uC-OS3.git
+	branch = master
+[submodule "uC-OS2"]
+	path = uC-OS2
+	url = https://github.com/weston-embedded/uC-OS2.git
+	branch = master
+[submodule "CMSIS_6"]
+	path = CMSIS_6
+	url = https://github.com/ARM-software/CMSIS_6.git
+	branch = main
