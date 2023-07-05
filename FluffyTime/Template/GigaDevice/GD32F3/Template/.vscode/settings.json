@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "system_gd32f30x.h": "c",
+        "public.h": "c",
+        "error.h": "c",
+        "config.h": "c",
+        "stdarg.h": "c",
+        "cstdio": "c",
+        "stdio.h": "c",
+        "stdint.h": "c",
+        "def.h": "c",
+        "gd32f30x.h": "c",
+        "debug.h": "c",
+        "main.h": "c",
+        "console_output.h": "c"
+    }
+}
