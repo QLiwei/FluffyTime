@@ -12,6 +12,7 @@
         "gd32f30x.h": "c",
         "debug.h": "c",
         "main.h": "c",
-        "console_output.h": "c"
+        "console_output.h": "c",
+        "cpu.h": "c"
     }
 }

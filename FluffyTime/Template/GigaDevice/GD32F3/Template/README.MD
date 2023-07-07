@@ -329,3 +329,16 @@ c.json&c++.json
 |                                                              |                     |          |
 |                                                              |                     |          |
 
+### 3.TOOLS
+
+| Name      | Download                                    | Describe |
+| --------- | ------------------------------------------- | -------- |
+| putty     | https://www.putty.org/                      |          |
+| SecureCRT | https://www.vandyke.com/products/securecrt/ |          |
+| KingstVIS | http://www.qdkingst.com/en/download         |          |
+| vofa+     | https://www.vofa.plus/                      |          |
+| typora    | https://typora.io/                          |          |
+| sscom     | http://www.daxia.com/                       |          |
+|           |                                             |          |
+|           |                                             |          |
+

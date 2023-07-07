@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>GD32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS_5\Include;..\..\Libraries\GD32F30x\Include;..\..\Libraries\GD32F30x_standard_peripheral\Include;..\..\Source\Applications\Include;..\..\Source\Components\Include;..\..\Source\Drivers\Include;..\..\Source\Public\Include</IncludePath>
+              <IncludePath>..\..\..\Libraries\CMSIS_5\Include;..\..\..\Libraries\GD32F30x\Include;..\..\..\Libraries\GD32F30x_standard_peripheral\Include;..\..\..\Source\Applications\Include;..\..\..\Source\Components\Include;..\..\..\Source\Drivers\Include;..\..\..\Source\Public\Include;..\..\..\Source\OS\uC\uC-Cfg;..\..\..\Source\OS\uC\uC-CPU;..\..\..\Source\OS\uC\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM;..\..\..\Source\OS\uC\uC-LIB\Source;..\..\..\Source\OS\uC\uC-OS3\Source;..\..\..\Source\OS\uC\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -387,7 +387,7 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Source\Applications\Source\main.c</FilePath>
+              <FilePath>..\..\..\Source\Applications\Source\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -400,12 +400,12 @@
             <File>
               <FileName>systick.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Source\Drivers\Source\systick.c</FilePath>
+              <FilePath>..\..\..\Source\Drivers\Source\systick.c</FilePath>
             </File>
             <File>
               <FileName>console_output.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Source\Drivers\Source\console_output.c</FilePath>
+              <FilePath>..\..\..\Source\Drivers\Source\console_output.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -415,12 +415,12 @@
             <File>
               <FileName>service.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Source\Public\Source\service.c</FilePath>
+              <FilePath>..\..\..\Source\Public\Source\service.c</FilePath>
             </File>
             <File>
               <FileName>port.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Source\Public\Source\port.c</FilePath>
+              <FilePath>..\..\..\Source\Public\Source\port.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -430,137 +430,137 @@
             <File>
               <FileName>startup_gd32f30x_hd.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\Libraries\GD32F30x\Source\ARM\startup_gd32f30x_hd.s</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x\Source\ARM\startup_gd32f30x_hd.s</FilePath>
             </File>
             <File>
               <FileName>system_gd32f30x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x\Source\system_gd32f30x.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x\Source\system_gd32f30x.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x\Source\gd32f30x_it.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x\Source\gd32f30x_it.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_bkp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_can.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_ctc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_dbg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_enet.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_exmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_fmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_fwdgt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_pmu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_rcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c</FilePath>
             </File>
             <File>
               <FileName>gd32f30x_wwdgt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</FilePath>
+              <FilePath>..\..\..\Libraries\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -568,19 +568,259 @@
           <GroupName>CMSIS</GroupName>
           <Files>
             <File>
-              <FileName>cmsis_armcc.h</FileName>
+              <FileName>cmsis_version.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\Libraries\CMSIS_5\Include\cmsis_armcc.h</FilePath>
+              <FilePath>..\..\..\Libraries\CMSIS_5\Include\cmsis_version.h</FilePath>
             </File>
             <File>
-              <FileName>core_cm4.h</FileName>
+              <FileName>cmsis_armcc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\Libraries\CMSIS_5\Include\core_cm4.h</FilePath>
+              <FilePath>..\..\..\Libraries\CMSIS_5\Include\cmsis_armcc.h</FilePath>
             </File>
             <File>
               <FileName>cmsis_compiler.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\Libraries\CMSIS_5\Include\cmsis_compiler.h</FilePath>
+              <FilePath>..\..\..\Libraries\CMSIS_5\Include\cmsis_compiler.h</FilePath>
+            </File>
+            <File>
+              <FileName>core_cm4.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Libraries\CMSIS_5\Include\core_cm4.h</FilePath>
+            </File>
+            <File>
+              <FileName>mpu_armv7.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Libraries\CMSIS_5\Include\mpu_armv7.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>uC/Cfg</GroupName>
+          <Files>
+            <File>
+              <FileName>cpu_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-Cfg\cpu_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-Cfg\lib_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_app_hooks.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-Cfg\os_app_hooks.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_app_hooks.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-Cfg\os_app_hooks.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-Cfg\os_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_cfg_app.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-Cfg\os_cfg_app.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>uC/CPU</GroupName>
+          <Files>
+            <File>
+              <FileName>cpu_cache.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\cpu_cache.h</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\cpu_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_core.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\cpu_core.h</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_def.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\cpu_def.h</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\ARM-Cortex-M\ARMv7-M\cpu_c.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpu_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu_a.asm</FilePath>
+            </File>
+            <File>
+              <FileName>cpu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM\cpu.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>uC/LIB</GroupName>
+          <Files>
+            <File>
+              <FileName>lib_ascii.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_ascii.c</FilePath>
+            </File>
+            <File>
+              <FileName>lib_ascii.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_ascii.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_def.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_def.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_math.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_math.c</FilePath>
+            </File>
+            <File>
+              <FileName>lib_math.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_math.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>lib_mem.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_mem.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_str.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_str.c</FilePath>
+            </File>
+            <File>
+              <FileName>lib_str.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-LIB\Source\lib_str.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>uC/OS3 Source</GroupName>
+          <Files>
+            <File>
+              <FileName>os_cfg_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_cfg_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_dbg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_dbg.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_flag.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_flag.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_msg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_msg.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_prio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_prio.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_q.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_q.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_sem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_sem.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_stat.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_stat.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_tick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_tick.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_tmr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_tmr.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_var.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Source\os_var.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>uC/OS3 Port</GroupName>
+          <Files>
+            <File>
+              <FileName>os_cpu_c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\os_cpu_c.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\..\Source\OS\uC\uC-OS3\Ports\ARM-Cortex-M\ARMv7-M\ARM\os_cpu_a.asm</FilePath>
             </File>
           </Files>
         </Group>
