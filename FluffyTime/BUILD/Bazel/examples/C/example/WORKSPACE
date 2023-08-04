@@ -1,0 +1,17 @@
+# > 1.工作区
+# WORKSPACE.bazel(优先级更高) == WORKSPACE
+# WORKSPACE file:用于将目录及其内容识别为 Bazel 工作区，它位于项目目录结构的根目录中
+
+# > 2.代码库
+# WORKSPACE -> 目录为主代码库的根目录-> @
+# 外部代码库在WORKSPACE文件中引入
+
+# > 3.软件包
+# BUILD 或 BUILD.bazel 的 BUILD 文件的目录
+
+# 标签
+# @myrepo//my/app/main:app_binary
+# [代码库名称] @myrepo//
+# [非限定软件包名称] my/app/main
+# 代码库名称和非限定软件包名称共同构成完全限定软件包名称
+# [非限定目标名称] :app_binary

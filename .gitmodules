@@ -24,3 +24,6 @@
 [submodule "uC-LIB"]
 	path = uC-LIB
 	url = https://github.com/weston-embedded/uC-LIB.git
+[submodule "bazel"]
+	path = bazel
+	url = https://github.com/bazelbuild/bazel.git
