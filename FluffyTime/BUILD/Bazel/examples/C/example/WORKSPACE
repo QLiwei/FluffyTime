@@ -15,3 +15,10 @@
 # [非限定软件包名称] my/app/main
 # 代码库名称和非限定软件包名称共同构成完全限定软件包名称
 # [非限定目标名称] :app_binary
+register_execution_platforms(
+    ":x64_windows-clang-cl"
+)
+
+register_toolchains(
+    "@local_config_cc//:cc-toolchain-x64_windows-clang-cl",
+)
