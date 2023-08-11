@@ -331,14 +331,14 @@ c.json&c++.json
 
 ### 3.TOOLS
 
-| Name      | Download                                    | Describe |
-| --------- | ------------------------------------------- | -------- |
-| putty     | https://www.putty.org/                      |          |
-| SecureCRT | https://www.vandyke.com/products/securecrt/ |          |
-| KingstVIS | http://www.qdkingst.com/en/download         |          |
-| vofa+     | https://www.vofa.plus/                      |          |
-| typora    | https://typora.io/                          |          |
-| sscom     | http://www.daxia.com/                       |          |
-|           |                                             |          |
-|           |                                             |          |
+| Name      | Download                                    | Describe                                                     |
+| --------- | ------------------------------------------- | ------------------------------------------------------------ |
+| putty     | https://www.putty.org/                      | PuTTY是一个免费、开源的终端模拟器和SSH客户端工具             |
+| SecureCRT | https://www.vandyke.com/products/securecrt/ | 由VanDyke Software公司开发的终端模拟器和SSH客户端工具        |
+| KingstVIS | http://www.qdkingst.com/en/download         |                                                              |
+| vofa+     | https://www.vofa.plus/                      | 插件驱动的高自由度上位机解析串口工具                         |
+| typora    | https://typora.io/                          | [立即下载](https://www.vofa.plus/downloads/?v=8/10/2023)Typora是一款功能强大的所见即所得（WYSIWYG）Markdown编辑器 |
+| MobaXterm | https://mobaxterm.mobatek.net/              | 远程计算和网络管理工具                                       |
+|           |                                             |                                                              |
+|           |                                             |                                                              |
 
